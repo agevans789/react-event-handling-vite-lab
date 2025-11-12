@@ -1,6 +1,8 @@
 // Code PasswordInput Component Here
+import { useState } from 'react';
 
 function PasswordInput (){
+    const [password, setPassword] = useState('');
     // render input with password type
     // add change event to the <input>
     const handleChange = (e) => {
@@ -23,6 +25,6 @@ function PasswordInput (){
             </p>
         </div>
     )
-}
+};
 
 export default PasswordInput;

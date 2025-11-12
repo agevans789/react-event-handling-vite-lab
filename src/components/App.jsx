@@ -4,7 +4,6 @@ import PasswordInput from './PasswordInput'
 import SubmitButton from './SubmitButton'
 
 function App() {
-
   return (
     <div>
       <PasswordInput/>
